@@ -1,0 +1,37 @@
+.menulateral{
+    border: 1px solid black;
+    height: min-content;
+    width: min-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.logo{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url(../../multimedia/Luci.png);
+    background-size: cover;
+}
+.inferior{
+    border: 1px solid black;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+        
+}
+.menulateral li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+       
+}
+.menulateral li{
+    list-style: none;
+}
