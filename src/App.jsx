@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes,Route} from 'react-router-dom';
 import Navbar from './components/Navbar/navbar';
+import Body from './components/Body/body';
 
 
 
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<>
           <Navbar />
+          <Body />
           </>
         } />
         </Routes>

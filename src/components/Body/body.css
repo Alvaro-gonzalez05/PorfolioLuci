@@ -1,0 +1,55 @@
+.pagina1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px purple;
+    height: 100vh;
+    width: auto;
+    background-image: url(../../multimedia/pagina1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+body{
+    background-color: #FFF5E5;
+}
+.logo{
+    position: relative;
+    margin-right: 800px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(../../multimedia/Luci.png);
+    box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.726);
+    background-size: cover;
+}
+.info{
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: #2E2E2E;
+    margin-left: 500px;
+    height: 500px;
+    width: 1000px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
+}
+.pagina2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px red;
+    height: 100vh;
+    width: auto;
+    background-image: url(../../multimedia/pagina2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.relleno{
+    background-color: #B8B8B8;
+    margin-left: 1200px;
+    height: 64.02px;
+    width: 50px;
+}

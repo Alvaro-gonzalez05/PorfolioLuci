@@ -1,31 +1,71 @@
-.menulateral{
-    border: 1px solid black;
-    height: min-content;
-    width: min-content;
 
+.menulateral{
+    position: absolute;
+    
+    background-color: transparent;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin:auto;
+    margin-left: 450px;
+    
 }
-.logo{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background-image: url(../../multimedia/Luci.png);
-    background-size: cover;
-}
-.inferior{
-    border: 1px solid black;
-    margin-left: 20px;
+/* .superior{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    border: 1px solid red;
+} */
+/* .logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(../../multimedia/Luci.png);
+    background-size: cover;
+} */
+.inferior{
+    
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
+    padding: 50px;
     
     
         
 }
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 216, 214, 0.527);
+    border-radius: 15px;
+    margin-left: 3rem;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
+
+}
+.boton :hover{
+    scale: 1.1;
+    
+}
+.icono{
+    font-size: 40px;
+    margin: 10px;
+}
+
 .menulateral li a{
     text-decoration: none;
     color: black;
