@@ -1,55 +1,86 @@
-.pagina1{
+/* Estilos base */
+.pagina1,
+.pagina2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 5px purple;
     height: 100vh;
-    width: auto;
-    background-image: url(../../multimedia/pagina1.png);
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-   
+}
 
+.pagina1 {
+    border: solid 5px purple;
+    background-image: url(../../multimedia/pagina1.png);
 }
-body{
+
+.pagina2 {
+    border: solid 5px red;
+    background-image: url(../../multimedia/pagina2.png);
+}
+
+body {
     background-color: #FFF5E5;
+    margin: 0; /* Elimina el margen por defecto */
 }
-.logo{
+
+.logo {
     position: relative;
-    margin-right: 800px;
-    height: 400px;
-    width: 400px;
+    margin-right: 670px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-image: url(../../multimedia/Luci.png);
-    box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.726);
     background-size: cover;
+    box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.726);
 }
-.info{
+
+.info {
     position: absolute;
     border: solid 1px black;
+    margin-left: 300px;
     border-radius: 15px;
     background-color: #2E2E2E;
-    margin-left: 500px;
-    height: 500px;
-    width: 1000px;
+    height: 300px;
+    width: 700px;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
 }
-.pagina2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 5px red;
-    height: 100vh;
-    width: auto;
-    background-image: url(../../multimedia/pagina2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 
-
-}
-.relleno{
+.relleno {
     background-color: #B8B8B8;
-    margin-left: 1200px;
     height: 64.02px;
     width: 50px;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .logo {
+        margin-right: 0; /* Centra el logo en pantallas pequeñas */
+        height: 150px;
+        width: 150px;
+    }
+
+    .info {
+        margin-left: 0; /* Centra la información en pantallas pequeñas */
+        width: 80%; /* Ajusta el ancho al tamaño de la pantalla */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Centra el elemento */
+    }
+
+    .relleno {
+        margin-left: 0; /* Ajusta el margen en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .info {
+        height: 300px; /* Ajusta la altura para pantallas muy pequeñas */
+    }
 }

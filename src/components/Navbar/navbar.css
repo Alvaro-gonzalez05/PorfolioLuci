@@ -1,50 +1,33 @@
-
-.menulateral{
+/* Estilos base */
+.menulateral {
     position: absolute;
-    
     background-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     max-width: 1000px;
-    margin:auto;
-    margin-left: 450px;
-    
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente */
 }
-/* .superior{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid red;
-} */
-/* .logo{
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background-image: url(../../multimedia/Luci.png);
-    background-size: cover;
-} */
-.inferior{
-    
-    margin-left: 20px;
+
+.inferior {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     padding: 50px;
-    
-    
-        
 }
-.redes{
+
+.redes {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
-.boton{
+
+.boton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,26 +35,78 @@
     border-radius: 15px;
     margin-left: 3rem;
     height: 50px;
-    width: 150px;
-    font-size: 18px;
+    width: 120px;
+    font-size: 15px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
+}
 
-}
-.boton :hover{
+.boton:hover {
     scale: 1.1;
-    
 }
-.icono{
+
+.icono {
     font-size: 40px;
     margin: 10px;
 }
 
-.menulateral li a{
+.menulateral li a {
     text-decoration: none;
     color: black;
     padding: 5px;
-       
 }
-.menulateral li{
+
+.menulateral li {
     list-style: none;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 1024px) {
+    .menulateral {
+        max-width: 750px;
+    }
+
+    .boton {
+        margin-left: 2rem;
+        height: 40px;
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .icono {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menulateral {
+        flex-direction: column;
+        max-width: none;
+        padding: 20px;
+    }
+
+    .inferior,
+    .redes {
+        flex-direction: column;
+    }
+
+    .boton {
+        margin: 10px 0;
+        width: 100%; /* Ajusta el ancho al contenedor */
+    }
+
+    .icono {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menulateral {
+        position: static; /* Elimina la posición absoluta */
+        transform: none; /* Elimina la transformación */
+    }
+
+    .boton {
+        height: 35px;
+        font-size: 14px;
+    }
 }
