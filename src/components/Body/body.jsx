@@ -12,7 +12,12 @@ export default function Body(){
             </div>
             
             <div className="pagina2">
-            <div className="relleno"></div>
+                <div className="linea"></div>
+                <div className="info2">
+                    <ul>Plataforms</ul>
+                    <ul>Technical skills</ul>
+                </div>
+                <div className="info3"></div>
 
             </div>
 
