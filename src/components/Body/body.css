@@ -1,6 +1,5 @@
 /* Estilos base */
-.pagina1,
-.pagina2 {
+.pagina1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,10 +14,7 @@
     background-image: url(../../multimedia/pagina1.png);
 }
 
-.pagina2 {
-    border: solid 5px red;
-    background-color: #FFF5E5;
-}
+
 
 body {
     background-color: #FFF5E5;
