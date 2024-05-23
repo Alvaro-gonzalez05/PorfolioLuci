@@ -4,15 +4,10 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: 100v;
+   
 }
 
-.pagina1 {
-    border: solid 5px purple;
-    background-image: url(../../multimedia/pagina1.png);
-}
 
 
 
@@ -47,6 +42,18 @@ body {
     background-color: #B8B8B8;
     height: 64.02px;
     width: 50px;
+}
+.linea1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: solid 1px black; */
+    height: 550px;
+    width: 150px;
+    margin-right: 1350px;
+    margin-top: 50px;
 }
 
 /* Media queries para diferentes tamaños de pantalla */

@@ -1,0 +1,36 @@
+.pagina3 {
+    font-family: TT drugs;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.text{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+}
+.text1{
+    font-size: 50px;
+}
+.text2{
+    
+    font-size: 20px;
+    width: 500px;
+    height: 300px;
+}
+.variables{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}

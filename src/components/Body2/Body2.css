@@ -1,26 +1,143 @@
+@font-face {
+    font-family: TT drugs;
+    src: url(../../Fuentes/TT\ Drugs\ Trial\ Light.otf);
+
+}
+
 .pagina2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
     height: 100vh;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+   
 }
-hr {
-    height: 100px;
-    background-color: red;
+.lineav {
+    height: 350px;
+    width: 3px;
+    background-color: black;
+    border: 1px solid black;
+    margin-right: 35px;
+    margin-bottom: 80px;
+    
+    
+    
   }
 .linea{
     
+    position: absolute;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    border: solid 1px black;
-    height: max-content;
-    width: max-content;
+    /* border: solid 1px black; */
+    height: 550px;
+    width: 150px;
+    margin-right: 1300px;
+    margin-top: 50px;
+   
+    
 }
 .texto{
     transform: rotate(270deg);
+    /* border: solid 1px black; */
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: TT drugs;
+    font-size: 25px;
+}
+
+.contenedor{
+    font-family: TT drugs;
+    font-size: 20px;
+    position: absolute;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    height: 50vh;
+    width: 100%;
+    
+    
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    
+}
+
+
+
+
+.info3{
+    background-color: #B8B8B8;
+    height: 50vh;
+    width: 100%;    
+}
+
+.titulo{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 300px;
+    
+}
+.lineah{
+    border: 1px solid white;
+    height: 3px;
+    width: 350px;
+    background-color: white;
+}
+.lista{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    margin-left: 50px;
+    align-items: flex-end;
+    justify-content: space-around;  
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+.lista img{
+    
+    height: 170px;
+    width: 170px;
+    margin: 30px;
+    
+}
+.back{
+    background-color: #2E2E2E;
+    border-radius: 15px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
+
+}
+.back1{
+    margin-top: 35px;
+    background-color: #2E2E2E;
+    border-radius: 15px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
+
 }
