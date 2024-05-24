@@ -17,7 +17,7 @@ import versatilidad from '../../multimedia/versatilidad.png'
 export default function Body2(){
     return(
         <div>
-            <div className="pagina2">
+            <div className="pagina2" id='2'>
                 
                 <div className="contenedor">
                     <div className="info2">
@@ -25,16 +25,16 @@ export default function Body2(){
                             <br />
                             <br />
                             <div className='back'>
-                                <img src={instagram} alt="" />
-                                <img src={linkedin} alt="" />
+                                <img className='logos1' src={instagram} alt="" />
+                                <img className='logos1' src={linkedin} alt="" />
                             </div>
                         </div>
                         <div className='tech'>Technical Skills
                             <div className="back1">
-                                <img src={ilustrator} alt="" />
-                                <img src={photoshop} alt="" />
-                                <img src={figma} alt="" />
-                                <img src={canva} alt="" />
+                                <img className='logos1' src={ilustrator} alt="" />
+                                <img className='logos1' src={photoshop} alt="" />
+                                <img className='logos1' src={figma} alt="" />
+                                <img className='logos1' src={canva} alt="" />
                             </div>
                         </div>
                         
@@ -42,7 +42,7 @@ export default function Body2(){
                     <div className="info3">
                         <div className="titulo">
                             <ul> <hr className='lineah' /></ul>
-                            <ul >SOFT SKILLS</ul>
+                            <ul className='box'>SOFT SKILLS</ul>
                         </div>
                         <div className="lista">
                             <div className="logos"><img src={responsabilidad} alt="" />

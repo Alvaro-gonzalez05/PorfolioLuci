@@ -1,15 +1,21 @@
 /* Estilos base */
 .menulateral {
     position: absolute;
-    background-color: transparent;
+    z-index: 1;
+    background-color:#FFF5E5 ;
+    border-radius: 15px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 1000px;
-    margin: auto;
-    left: 50%;
-    transform: translateX(-50%); /* Centra horizontalmente */
+    max-width: 1500px;
+    width: 1200px;
+    /* left: 50%; */
+    right: 10%;
+    transform: translateX(-1300px); /* Centra horizontalmente */
+
+
 }
 
 .inferior {
@@ -109,4 +115,74 @@
         height: 35px;
         font-size: 14px;
     }
+}
+
+input{
+    display: none;
+    visibility: hidden;
+    -webkit-appearance:none ;
+
+}
+
+.menu{
+    position: fixed;
+    display: flex;
+
+    flex-direction: row-reverse;
+    
+    transform: translateX(1300px);
+}
+.toogle{
+    z-index: 20;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 15px;
+    top: 50px;
+    right: 100px;
+}
+.toogle .common{
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.toogle .top_line{
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toogle .mid_line{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toogle .bottom_line{
+    top:70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input:checked ~ .toogle .top_line{
+    left: 7px;
+    top: 19px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+input:checked ~ .toogle .bottom_line{
+    left: 7px;
+    top: 19px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+input:checked ~ .toogle .mid_line{
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+input:checked ~ .menulateral{
+    transform: translatex(0);
 }

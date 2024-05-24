@@ -6,7 +6,7 @@ import logo from '../../multimedia/Luci.png';
 export default function Body(){
     return(
         <div className="pagEntera">
-            <div className="pagina1">
+            <div className="pagina1" id='1'>
                 <div className="linea1">
                     <ul > <hr className='lineav'/></ul>
                     <ul className='texto'>LUCIA MIRANDA</ul>

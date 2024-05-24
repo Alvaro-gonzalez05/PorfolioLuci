@@ -94,6 +94,7 @@ img{
 }
 
 .titulo{
+    text-align: center;
     font-size: 30px;
     color: white;
     display: flex;
@@ -140,4 +141,10 @@ img{
     border-radius: 15px;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
 
+}
+.logos:hover{
+    scale: 1.05;
+}
+.logos1:hover{
+    scale: 1.2;
 }

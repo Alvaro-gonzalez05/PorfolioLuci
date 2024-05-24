@@ -8,22 +8,27 @@ import { TiSocialLinkedin } from "react-icons/ti";
 
 export default function Navbar(){
     return(
-        <div className="menulateral">
-            {/* <div className="superior">
-                <li className="logo"><a href=""></a></li>
-                <h5>Ux ui desinger and product manager</h5>
-
-            </div> */}
-            <div className="inferior">
-                <li className='boton'><a href="">About me</a></li>
-                <li className='boton'><a href="">My skills</a></li>
-                <li className='boton'><a href="">My jobs</a></li>
-                <li className='boton'><a href="">How can I help you?</a></li>
+        <label className='menu'>
+            <input type="checkbox" />
+            <div className="toogle">
+                <span className="top_line common"></span>
+                <span className="mid_line common"></span>
+                <span className="bottom_line common"></span>
             </div>
-            <div className="redes">
-                <li><FiInstagram className='icono'/></li>
-                <li><TiSocialLinkedin className='icono' /></li>
+            <div className="menulateral">
+            
+                <div className="inferior">
+                    <li className='boton'><a href="#1">About me</a></li>
+                    <li className='boton'><a href="#2">My skills</a></li>
+                    <li className='boton'><a href="">My jobs</a></li>
+                    <li className='boton'><a href="#3">How can I help you?</a></li>
+                </div>
+                <div className="redes">
+                    <li><FiInstagram className='icono'/></li>
+                    <li><TiSocialLinkedin className='icono' /></li>
+                </div>
             </div>
-        </div>
-    )
+            
+         </label>   
+    )   
 }
