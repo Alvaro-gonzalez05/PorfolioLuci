@@ -5,13 +5,20 @@
     justify-content: center;
     height: 100vh;
     width: 100v;
-   
+   flex-direction: column;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
+.titulo1{
+    position: absolute;
+    top: 5px;
+    font-family: TT drugs;
+    font-size: 80px;
+   
+}
 
 body {
     background-color: #FFF5E5;

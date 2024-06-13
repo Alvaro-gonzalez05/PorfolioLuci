@@ -65,62 +65,12 @@
     list-style: none;
 }
 
-/* Media queries para diferentes tamaños de pantalla */
-@media (max-width: 1024px) {
-    .menulateral {
-        max-width: 750px;
-    }
 
-    .boton {
-        margin-left: 2rem;
-        height: 40px;
-        width: 120px;
-        font-size: 16px;
-    }
-
-    .icono {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .menulateral {
-        flex-direction: column;
-        max-width: none;
-        padding: 20px;
-    }
-
-    .inferior,
-    .redes {
-        flex-direction: column;
-    }
-
-    .boton {
-        margin: 10px 0;
-        width: 100%; /* Ajusta el ancho al contenedor */
-    }
-
-    .icono {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 480px) {
-    .menulateral {
-        position: static; /* Elimina la posición absoluta */
-        transform: none; /* Elimina la transformación */
-    }
-
-    .boton {
-        height: 35px;
-        font-size: 14px;
-    }
-}
 
 input{
     display: none;
     visibility: hidden;
-    -webkit-appearance:none ;
+   
 
 }
 
@@ -130,7 +80,8 @@ input{
 
     flex-direction: row-reverse;
     
-    transform: translateX(1300px);
+    transform: translateX(50px);
+    z-index: 2;
 }
 .toogle{
     z-index: 20;
@@ -140,8 +91,8 @@ input{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     border-radius: 15px;
-    top: 50px;
-    right: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 .toogle .common{
     position: absolute;
@@ -150,20 +101,22 @@ input{
     background-color: black;
     border-radius: 50px;
     transition: 0.3s ease;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 .toogle .top_line{
-    top:30%;
-    left: 50%;
+    top:10%;
+    left: 23%;
     transform: translate(-50%, -50%);
 }
 .toogle .mid_line{
-    top:50%;
-    left: 50%;
+    top:20%;
+    left: 23%;
     transform: translate(-50%, -50%);
 }
 .toogle .bottom_line{
-    top:70%;
-    left: 50%;
+    top:30%;
+    left: 23%;
     transform: translate(-50%, -50%);
 }
 input:checked ~ .toogle .top_line{
@@ -184,5 +137,5 @@ input:checked ~ .toogle .mid_line{
 }
 
 input:checked ~ .menulateral{
-    transform: translatex(0);
+    transform: translatex(1250px);
 }
