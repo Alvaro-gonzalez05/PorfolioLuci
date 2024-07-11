@@ -33,10 +33,14 @@
     justify-content: space-evenly;
 }
 
+
+
 .boton {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: none;
+    text-decoration: none;
     background-color: rgba(240, 216, 214, 0.527);
     border-radius: 15px;
     margin-left: 3rem;

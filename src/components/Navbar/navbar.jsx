@@ -1,5 +1,4 @@
 import './navbar.css';
-import {Link} from 'react-router-dom';
 import * as React from 'react';
 import { FiInstagram } from "react-icons/fi";
 import { TiSocialLinkedin } from "react-icons/ti";
@@ -18,10 +17,10 @@ export default function Navbar(){
             <div className="menulateral">
             
                 <div className="inferior">
-                    <li className='boton'><a href="#1">About me</a></li>
-                    <li className='boton'><a href="#2">My skills</a></li>
-                    <li className='boton'><a href="">My jobs</a></li>
-                    <li className='boton'><a href="#3">How can I help you?</a></li>
+                    <li className='boton'><a href="/#1">About me</a></li>
+                    <li className='boton'><a href="/#2">My skills</a></li>
+                    <li className='boton'><a href="/#3">How can I help you?</a></li>
+                    <li className='boton' ><a href="/Jobs and Proyects">My jobs</a></li>
                 </div>
                 <div className="redes">
                     <li><FiInstagram className='icono'/></li>
