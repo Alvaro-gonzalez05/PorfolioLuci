@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom';
 import * as React from 'react';
 import './body.css'
 import logo from '../../multimedia/Luci.png';

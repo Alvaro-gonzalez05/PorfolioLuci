@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom';
 import * as React from 'react';
 import './Body2.css'
 import instagram from '../../multimedia/instagramlogo.png'
