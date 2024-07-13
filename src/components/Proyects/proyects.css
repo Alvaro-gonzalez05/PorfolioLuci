@@ -5,6 +5,7 @@
     font-family: TT drugs;
     font-size: 80px;
     margin-top: 100px;
+    
        
     
 
@@ -29,6 +30,7 @@
     margin: 0;
     color: #fff;
     
+    
   }
   
   .container {
@@ -39,7 +41,7 @@
     width: 300px;
     
     border-radius: 8px;
-    gap: 20px;
+    gap: 50px;
   }
   
   .container .card {

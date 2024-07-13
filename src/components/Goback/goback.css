@@ -1,0 +1,25 @@
+.burbuja{
+  
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 80px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+.burbuja img{
+    height: 30px;
+    width: 30px;
+}
+
+.burbuja:hover{
+    scale: 1.2;
+}
+
