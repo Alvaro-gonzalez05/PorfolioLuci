@@ -10,18 +10,19 @@
     justify-content: center;
     align-items: center;
 }
-.infoelsitio{
+.infowineguide{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 80px;
     padding-left: 50px;
     padding-right: 50px;
-   
+   margin-left: 90px;
     align-items: center;
     
-    height: 500px;
+    height: 594px;
     width: 500px;
+    overflow:hidden;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
     border-radius: 15px;
 
@@ -35,30 +36,52 @@
    
     
 }
-.imegeneselsitio{
- 
+
+
+
+.principal img{
+    width: 600px;
+    height: 267px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
+
+}
+.principal img:hover{
+    transform: translateY(-10px);
+}
+
+.imegenespagina{
     display: grid;
     grid-template-columns: 
     repeat(
         auto-fit,
-        minmax(130px, 1fr)
+        minmax(73px, 1fr)
     );
     gap: 20px;
-    width: 500px;
-    height: 500px;
-
+   
+    
 }
 
-.imegeneselsitio img{
+.imegenespagina img{
     border-radius: 15px;
-    height: 300px;
+    
+    height: 350px;
     width: 200px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
-    margin: 10px;
-    margin-left: 50px;
+    
+    
+    
 
 }
-.imegeneselsitio img:hover{
+.imegeneswineguide{
+    display: flex;
+    flex-direction: column;
+}
+
+.paginalarga{
+    width: 500px;
+}
+.imegenespagina img:hover{
     transform: translateY(-10px);
  
     opacity: 1;

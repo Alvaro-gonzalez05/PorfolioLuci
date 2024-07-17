@@ -8,7 +8,9 @@ import Proyects from './components/Proyects/proyects';
 import Elsitio from './components/Elsitio/elsitio';
 import Goback from './components/Goback/goback';
 import Goback1 from './components/Goback/goback1';
-
+import WineGuide from './components/Wine/wineguide';
+import Man from './components/Man/Man';
+import Beaute from './components/Beaute/Beaute';
 
 
 
@@ -42,7 +44,22 @@ function App() {
         } />
         <Route path='/WineGuide' element={<>
           <Goback1 />
-          <Elsitio />
+          <WineGuide />
+
+          
+          </>
+        } />
+        
+        <Route path='/ManDenimCulture' element={<>
+          <Goback1 />
+          <Man/>
+
+          
+          </>
+        } />
+        <Route path='/Beauté' element={<>
+          <Goback1 />
+          <Beaute/>
 
           
           </>

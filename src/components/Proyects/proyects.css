@@ -37,11 +37,11 @@
     display: flex;
     margin-left: 100px;
     
-    padding: 24px;
+    padding: 10px;
     width: 300px;
     
     border-radius: 8px;
-    gap: 50px;
+    gap: 30px;
   }
   
   .container .card {

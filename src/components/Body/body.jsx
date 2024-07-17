@@ -11,7 +11,7 @@ export default function Body(){
                     <ul > <hr className='lineav'/></ul>
                     <ul className='texto'>LUCIA MIRANDA</ul>
                 </div>
-                <div className="info"> <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ab quia ipsum ut maxime eveniet quas atque ipsam aspernatur libero voluptatum odio fugiat, earum maiores blanditiis deleniti illum. Nostrum, odit.</h1></div>
+                <div className="info" > <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ab quia ipsum ut maxime eveniet quas atque ipsam aspernatur libero voluptatum odio fugiat, earum maiores blanditiis deleniti illum. Nostrum, odit.</h1></div>
                 <img src={logo} alt="" className="logo" />
             </div>
 

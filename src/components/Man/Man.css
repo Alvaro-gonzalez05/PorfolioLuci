@@ -1,0 +1,33 @@
+
+.imegenesman{
+ 
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(130px, 1fr)
+    );
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imegenesman img{
+    border-radius: 15px;
+    height: 400px;
+    width: 500px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
+    margin: 10px;
+    margin-left: 50px;
+
+}
+.imegenesman img:hover{
+    transform: translateY(-10px);
+ 
+  
+
+}
