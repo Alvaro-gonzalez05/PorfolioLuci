@@ -39,31 +39,41 @@
 
 
 .vars{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
     
    border-radius: 15px;
-   background-color: #FFF5E5;
+   width: 100%;
+   height: auto;
    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
-    width: 190px;
-    height: 190px;
-    margin: 35px;
+   width: 180px;
+    height: 180px;
+   
 }
 
 .vars:hover{
-    scale: 1.1;
+    transform: translateY(-10px);
 }
 
 .variables{
-    
-    height: 700px;
-    margin-top: 0px;
-    width: 100px;
     display: flex;
     justify-content: center;
-    
-
+    align-items: center;
     display: grid;
-    grid-template-columns: auto 20%;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(200px, 1fr)
+    );
+    gap: 15px;
     width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    
     
 }
 
@@ -84,6 +94,8 @@
     border: solid 1px black;
 }
 button {
+    text-decoration: none;
+    list-style: none    ;
     margin-bottom: 100px;
     padding: 1.3em 3em;
     font-size: 12px;

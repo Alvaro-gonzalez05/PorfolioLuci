@@ -2,15 +2,19 @@
 .menulateral {
     position: absolute;
     z-index: 1;
-    background-color:#FFF5E5 ;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+   
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
     margin-top: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 1500px;
     width: 1200px;
+    height: 180px;
     /* left: 50%; */
     right: 10%;
     transform: translateX(-1300px); /* Centra horizontalmente */
@@ -23,7 +27,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px;
+    
 }
 
 .redes {
@@ -36,22 +40,32 @@
 
 
 .boton {
+    
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: none;
     text-decoration: none;
-    background-color: rgba(240, 216, 214, 0.527);
+    background-color: #fff;
     border-radius: 15px;
     margin-left: 3rem;
+    margin-top: 90px;
     height: 50px;
     width: 120px;
-    font-size: 15px;
+    font-size: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
 }
+.boton a{
+    text-decoration: none;
+    color: black;
+}
 
-.boton:hover {
-    scale: 1.1;
+.boton:hover{
+    background-color: #fff;
+}
+
+.boton:active{
+    background-color: #2E2E2E;
 }
 
 .icono {
@@ -59,13 +73,13 @@
     margin: 10px;
 }
 
-.menulateral li a {
+.menulateral {
     text-decoration: none;
     color: black;
-    padding: 5px;
+   
 }
 
-.menulateral li {
+.menulateral {
     list-style: none;
 }
 
@@ -142,4 +156,38 @@ input:checked ~ .toogle .mid_line{
 
 input:checked ~ .menulateral{
     transform: translatex(1250px);
+}
+
+
+@media (max-width: 450px) {
+    .menu{
+        
+        
+        transform: translateX(-40px);
+        
+    }
+    input:checked ~ .menulateral{
+        transform: translatex(350px);
+        height: 100px;
+        width: 320px;
+           
+    }
+    .inferior{
+        
+        height: 180px;
+        width: 300px;
+    }
+    
+    .boton{
+        height: 45px;
+        width: 50px;
+        margin-left: 10px;
+        font-size: 7px;
+       
+    }
+    .icono {
+     
+        font-size: 15px;
+        margin: 10px;
+    }
 }

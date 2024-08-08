@@ -21,6 +21,8 @@ export default function Body3(){
                 <Link to="/Jobs and Proyects"><button> My Jobs and proyects</button></Link>
             </div>
             <div className='variables'>
+
+                
                 <div className="vars">Tracking and analyzing metrics<img src={grafico} alt="" /></div>
                 <div className="vars">Community management<img src={usuarios} alt="" /></div>
                 <div className="vars">Project Planning and Prioritization<img src={planificacion} alt="" /></div>

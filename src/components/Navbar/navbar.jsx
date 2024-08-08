@@ -17,10 +17,11 @@ export default function Navbar(){
             <div className="menulateral">
             
                 <div className="inferior">
-                    <li className='boton'><a href="/#1">About me</a></li>
-                    <li className='boton'><a href="/#2">My skills</a></li>
-                    <li className='boton'><a href="/#3">How can I help you?</a></li>
-                    <li className='boton' ><a href="/Jobs and Proyects">My jobs</a></li>
+                    <button className="boton" id='barra'> <a href="/#1">About me</a></button>
+                    <button className="boton" id='barra'><a href="/#2">My Skills</a></button>
+                    <button className="boton" id='barra'><a href="/#3"> How can i help you?</a></button>
+                    <button className="boton" id='barra'><a href="/Jobs and Proyects">My Jobs</a></button>
+                    
                 </div>
                 <div className="redes">
                     <li><FiInstagram className='icono'/></li>
