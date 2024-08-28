@@ -1,18 +1,16 @@
 @font-face {
     font-family: TT drugs;
     src: url(../../Fuentes/TT\ Drugs\ Trial\ Light.otf);
-
 }
 
 .pagina2 {
     display: flex;
-    
     height: 100vh;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-   
 }
+
 .lineav {
     height: 350px;
     width: 3px;
@@ -20,28 +18,22 @@
     border: 1px solid black;
     margin-right: 35px;
     margin-bottom: 80px;
-    
-    
-    
-  }
-.linea{
-    
+}
+
+.linea {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    /* border: solid 1px black; */
     height: 550px;
     width: 150px;
     margin-right: 1300px;
     margin-top: 50px;
-   
-    
 }
-.texto{
+
+.texto {
     transform: rotate(270deg);
-    /* border: solid 1px black; */
     height: 50px;
     width: 200px;
     display: flex;
@@ -51,11 +43,10 @@
     font-size: 25px;
 }
 
-.contenedor{
+.contenedor {
     font-family: TT drugs;
     font-size: 20px;
     position: absolute;
-    /* border: solid 1px black; */
     display: flex;
     flex-direction: column;
     margin-right: 500px;
@@ -64,36 +55,29 @@
     justify-content: space-between;
 }
 
-.info2{
+.info2 {
     font-size: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    /* border: 1px solid black; */
     height: 50vh;
     width: 100%;
-    
-    
 }
 
-img{
+img {
     height: 100px;
     width: 100px;
     margin: 30px;
-    
 }
 
-
-
-
-.info3{
+.info3 {
     background-color: #B8B8B8;
     height: 50vh;
-    width: 100%;    
+    width: 100%;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 30px;
     color: white;
@@ -101,50 +85,193 @@ img{
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 300px;
-    
 }
-.lineah{
+
+.lineah {
     border: 1px solid white;
     height: 3px;
     width: 350px;
     background-color: white;
 }
-.lista{
+
+.lista {
     color: white;
     display: flex;
     flex-direction: row;
     height: 35vh;
     margin-left: 50px;
     align-items: flex-end;
-    justify-content: space-around;  
+    justify-content: space-around;
 }
-.logos{
+
+.logos {
     display: flex;
     flex-direction: column;
 }
-.lista img{
-    
+
+.lista img {
     height: 170px;
     width: 170px;
     margin: 30px;
-    
 }
-.back{
+
+.back {
     background-color: #2E2E2E;
     border-radius: 15px;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
-
 }
-.back1{
+
+.back1 {
     margin-top: 35px;
     background-color: #2E2E2E;
     border-radius: 15px;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
-
 }
-.logos:hover{
+
+.logos:hover {
     scale: 1.05;
 }
-.logos1:hover{
+
+.logos1:hover {
     scale: 1.2;
+}
+
+/* Media queries para hacer el diseño responsive */
+
+@media (max-width: 1200px) {
+    .linea {
+        margin-right: 1000px;
+        height: 450px;
+        width: 120px;
+    }
+
+    .contenedor {
+        margin-right: 400px;
+    }
+
+    .titulo {
+        margin-right: 200px;
+    }
+
+    .lineah {
+        width: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .info2{
+        flex-direction: column;
+    }
+    .info3{
+        height: 550px;
+    }
+   .lista{
+    flex-wrap: wrap;
+   }
+    .linea {
+        margin-right: 700px;
+        height: 350px;
+        width: 100px;
+        margin-bottom: 500px;
+    }
+
+    .contenedor {
+        margin-right: 200px;
+    }
+
+    .titulo {
+        margin-right: 100px;
+    }
+
+    .lineah {
+        width: 200px;
+    }
+
+    .lista img {
+        height: 140px;
+        width: 140px;
+    }
+}
+
+@media (max-width: 600px) {
+    .back{
+        margin-bottom: 50px;
+    }
+    .back1{
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .linea {
+        margin-right: 0;
+        height: 300px;
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .contenedor {
+        margin-right: 0;
+        font-size: 18px;
+    }
+    
+    .info2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .titulo {
+        font-size: 25px;
+        margin-right: 25px;
+    }
+
+    .lineah {
+        width: 200px;
+    }
+
+    .lista {
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .lista img {
+        height: 120px;
+        width: 120px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .linea {
+        height: 200px;
+        width: 60px;
+    }
+    .back1{
+        width: 320px;
+    }
+    .texto {
+        font-size: 18px;
+    }
+
+    .contenedor {
+        font-size: 16px;
+    }
+
+    .info2 {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .lista img {
+        height: 100px;
+        width: 100px;
+    }
 }

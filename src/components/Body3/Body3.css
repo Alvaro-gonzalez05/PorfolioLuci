@@ -7,10 +7,10 @@
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-   
 }
-.text{
-    margin-top: 100px;
+
+.text {
+    margin-top: 50px;
     border-radius: 15px;
     background-color: #FFF5E5;
     display: flex;
@@ -20,82 +20,76 @@
     height: 500px;
     width: 700px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
-    
 }
-.text:hover{
+
+.text:hover {
     scale: 1.01;
 }
-.text1{
+
+.text1 {
     font-size: 50px;
     margin-top: 20px;
 }
-.text2{
-    
+
+.text2 {
     font-size: 20px;
     width: 500px;
     height: 300px;
     margin-top: 80px;
 }
 
-
-.vars{
+.vars {
     display: flex;
     justify-content: space-between;
-    
     align-items: center;
     flex-direction: column;
     margin-top: 15px;
-    
-   border-radius: 15px;
-   width: 100%;
-   height: auto;
-   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
-   width: 180px;
+    border-radius: 15px;
+    width: 180px;
     height: 180px;
-   
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.726);
 }
 
-.vars:hover{
+.vars:hover {
     transform: translateY(-10px);
 }
 
-.variables{
+.variables {
     display: flex;
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 
-    repeat(
-        auto-fit,
-        minmax(200px, 1fr)
-    );
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
     width: 500px;
     height: 500px;
     margin-left: 50px;
-    
-    
 }
 
-.lineauix{
-    
+.lineauix {
     width: 1000px;
     display: flex;
     justify-content: row;
     position: absolute;
-    margin-bottom: 500px;
+    margin-bottom: 550px;
     margin-right: 200px;
 }
-.lineah1{
+.marco1{
+    display: flex;
+    flex-direction: row;
+}
+
+.lineah1 {
     height: 1px;
     width: 350px;
     color: black;
     background-color: black;
     border: solid 1px black;
 }
+
 button {
     text-decoration: none;
-    list-style: none    ;
+    list-style: none;
     margin-bottom: 100px;
     padding: 1.3em 3em;
     font-size: 12px;
@@ -110,15 +104,196 @@ button {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #2E2E2E;
     box-shadow: 0px 15px 20px black(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
-  }
-  
-  button:active {
+}
+
+button:active {
     transform: translateY(-1px);
-  }
+}
+
+/* Media queries para hacer el diseño responsive */
+
+@media (max-width: 1200px) {
+    .text {
+        width: 600px;
+        height: 450px;
+    }
+
+    .text1 {
+        font-size: 40px;
+    }
+
+    .text2 {
+        font-size: 18px;
+        width: 450px;
+        height: 250px;
+    }
+
+    .lineauix {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .marco1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .text {
+        width: 500px;
+        height: 400px;
+        margin-bottom: 80px;
+        
+    }
+    button{
+        margin-top: 50px;
+    }
+
+    .text1 {
+        font-size: 35px;
+    }
+
+    .text2 {
+        font-size: 16px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .variables {
+        width: 600px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linea11{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 550px;
+        width: 150px;
+        margin-right: 700px;
+        margin-bottom: 250px;
+    }
+    
+    .lineauix {
+        margin-bottom: 1000px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .linea11{
+        margin-right: 500px;
+        margin-top: 900px;
+    }
+    .marco1{
+        display: flex;
+        flex-direction: column;
+    }
+    .text {
+        margin-top: 1050px;
+        height: 400px;
+        width: 400px;
+    }
+
+    .text1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .text2 {
+        font-size: 14px;
+        width: 80%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .vars {
+        width: 150px;
+        height: 150px;
+    }
+
+    .variables {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lineauix {
+        margin-top: 1000px;
+        margin-left: 170px;
+        font-size: 14px;
+    }
+    .lineauix ul hr{
+        width: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    .linea11{
+        margin-left:100px ;
+    }
+    .lineauix{
+        width: 450px;
+        margin-bottom: 1500px;
+        font-size: 10px;
+        margin-left: 100px;
+    }
+    .lineauix ul hr{
+        
+    }
+    .marco1{
+        width: 430px;
+        margin-bottom: 500px;
+    }
+    .variables{
+        display: flex;
+        flex-wrap: wrap;
+        
+        height: 450px;
+        width: 350px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+    .vars{
+        height: 50px;
+        width: 50px;
+        font-size: 10px;
+    }
+    .vars img{
+        height: 50px;
+        width: 50px;
+    }
+    .text{
+        height: 300px;
+        width: 350px;
+    }
+    .text1 {
+        font-size: 25px;
+    }
+
+    .text2 {
+        font-size: 12px;
+    }
+
+    .vars {
+        width: 120px;
+        height: 120px;
+    }
+
+    button {
+        padding: 1em 2em;
+        font-size: 10px;
+    }
+}

@@ -40,7 +40,8 @@
 
 
 .boton {
-    
+    display: inline-block;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +72,9 @@
 .icono {
     font-size: 40px;
     margin: 10px;
+}
+.icono:hover{
+    transform: translateY(-5px);
 }
 
 .menulateral {
@@ -159,6 +163,87 @@ input:checked ~ .menulateral{
 }
 
 
+
+@media (max-width: 1200px) {
+   
+}
+
+@media (max-width: 900px) {
+    .menu{
+        
+        
+        transform: translateX(50px);
+        
+    }
+    input:checked ~ .menulateral{
+        transform: translatex(600px);
+        height: 150px;
+        width: 600px;
+           
+    }
+    .inferior{
+        
+        height: 150px;
+        width: 450px;
+
+    }
+    
+    .boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        width: 200px;
+        margin-left: 10px;
+        font-size: 9px;
+        display: inline-block;
+        padding: 1px 2px;
+    }
+    .icono {
+     
+        font-size: 20px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu{
+        
+        
+        transform: translateX(-10px);
+        
+    }
+    input:checked ~ .menulateral{
+        transform: translatex(470px);
+        height: 100px;
+        width: 450px;
+           
+    }
+    .inferior{
+        
+        height: 180px;
+        width: 350px;
+    }
+    
+    .boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+        width: 100px;
+        margin-left: 10px;
+        font-size: 8px;
+        display: inline-block;
+        padding: 1px 2px;
+    }
+    .icono {
+     
+        font-size: 15px;
+        margin: 10px;
+    }
+}
+
+
 @media (max-width: 450px) {
     .menu{
         
@@ -179,11 +264,15 @@ input:checked ~ .menulateral{
     }
     
     .boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 45px;
         width: 50px;
         margin-left: 10px;
         font-size: 7px;
-       
+        display: inline-block;
+        padding: 1px 2px;
     }
     .icono {
      
