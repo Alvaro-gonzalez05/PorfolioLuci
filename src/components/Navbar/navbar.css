@@ -252,7 +252,7 @@ input:checked ~ .menulateral{
         
     }
     input:checked ~ .menulateral{
-        transform: translatex(350px);
+        transform: translatex(320px);
         height: 100px;
         width: 320px;
            

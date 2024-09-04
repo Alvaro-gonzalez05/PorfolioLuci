@@ -1,12 +1,14 @@
 /* Estilos base */
 
 .pagina1 {
+    
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     flex-direction: column;
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -168,23 +170,35 @@ body {
     }
 }
 
-@media (max-width: 450px) {     
+@media (max-width: 450px)  {     
     .pagina1{
-        margin-right:500px;
+        display: flex;
+
     }
    .marco{
+    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-bottom: 500px;
-    margin-right: 100px;
+    margin-bottom: 400px;
+
+    margin-right: 50px;
+    transform:translateX(-280px) ;
+    
     
    
+   }
+   .marco div{
+    margin: 0;
+   }
+   .marco img{
+    margin: 0;
    }
     .logo {
         height: 200px;
         width: 200px;
         margin-bottom: 2px;
         margin-right: 65px;
+        transform: translateX(20px);
         
     }
 
@@ -198,12 +212,12 @@ body {
     }
 
     .titulo1 {
-        margin-left: 500px;
+      
         font-size: 50px;
     }
 
     .linea1 {
-        
+        transform: translateX(-240px);
         margin-bottom: 500px;
         height: 200px;
         width: 70px;

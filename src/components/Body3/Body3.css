@@ -242,20 +242,20 @@ button:active {
 
 @media (max-width: 450px) {
     .linea11{
-        margin-left:100px ;
+        margin-top: 1500px;
+        margin-left:170px ;
     }
     .lineauix{
-        width: 450px;
-        margin-bottom: 1500px;
-        font-size: 10px;
-        margin-left: 100px;
+        width: 350px;
+        margin-bottom: 700px;
+        font-size: 9px;
+        margin-left: 150px;
     }
-    .lineauix ul hr{
-        
-    }
+    
     .marco1{
-        width: 430px;
-        margin-bottom: 500px;
+        width: 40px;
+        transform: translateY(200px);
+        
     }
     .variables{
         display: flex;
@@ -265,6 +265,7 @@ button:active {
         width: 350px;
         margin-right: 50px;
         margin-bottom: 50px;
+        transform: translateY(-55px);
     }
     .vars{
         height: 50px;
@@ -276,8 +277,8 @@ button:active {
         width: 50px;
     }
     .text{
-        height: 300px;
-        width: 350px;
+        height: 350px;
+        width: 300px;
     }
     .text1 {
         font-size: 25px;
