@@ -11,6 +11,7 @@ import Goback1 from './components/Goback/goback1';
 import WineGuide from './components/Wine/wineguide';
 import Man from './components/Man/Man';
 import Beaute from './components/Beaute/Beaute';
+import CVU from './components/cvu/cvu'
 
 
 
@@ -24,7 +25,7 @@ function App() {
           <Body />
           <Body2 />
           <Body3 />
-          
+          <CVU />
           </>
           
         } />

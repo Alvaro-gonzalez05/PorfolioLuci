@@ -48,7 +48,9 @@
     height: 600px;
 
 }
-
+h5{
+    font-style: none;
+}
 .imegeneselsitio img{
     border-radius: 15px;
     height: 300px;
@@ -64,3 +66,34 @@
     opacity: 1;
 
 }
+
+ /* Telefonos grandes */
+ @media (max-width: 450px) and (min-width:400px){
+  .paginaElsitio{
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+  .infoelsitio{
+    width: 250px;
+    height: 700px;
+  }
+  .imegeneselsitio img{
+    height: 300px;
+    width: 200px;
+    transform: translateX(-50px);
+  }
+  
+    
+  }
+  h5{
+    font-style:none
+}
+
+
+  
+    /* Telefonos Normales */
+
+  @media (max-width: 399px) and (min-width:300px){
+ 
+  }

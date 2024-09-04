@@ -14,8 +14,8 @@
 }
 .info31{
     background-color: #B8B8B8;
-    height: 50vh;
-    width: 100%; 
+    height: auto;
+    width: auto; 
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -123,4 +123,44 @@
   
   .button1:active {
     transform: translateY(-1px);
+  }
+
+  /* Telefonos grandes */
+  @media (max-width: 450px) and (min-width:400px){
+    .container{
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      transform: translateX(-40px);
+      
+    }
+    .info31{
+      display: flex;
+      flex-wrap: wrap;
+      transform: translateY(400px);
+      
+    }
+
+  }
+    /* Telefonos Normales */
+
+  @media (max-width: 399px) and (min-width:300px){
+    .container{
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      transform: translateX(-40px);
+      
+    }
+    .info31{
+      display: flex;
+      flex-wrap: wrap;
+      transform: translateY(400px);
+      
+    }
+    .plataform1{
+      font-size: 70px;
+    }
   }

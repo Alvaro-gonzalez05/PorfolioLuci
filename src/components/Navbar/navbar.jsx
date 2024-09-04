@@ -20,7 +20,7 @@ export default function Navbar(){
                     <button className="boton" id='barra'> <a href="/#1">About me</a></button>
                     <button className="boton" id='barra'><a href="/#2">My Skills</a></button>
                     <button className="boton" id='barra'><a href="/#3"> How can i help you?</a></button>
-                    <button className="boton" id='barra'><a href="/Jobs and Proyects">My Jobs</a></button>
+                    <button className="boton" id='barra'><a href="/#4">Record</a></button>
                     
                 </div>
                 <div className="redes">

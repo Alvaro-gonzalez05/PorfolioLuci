@@ -23,3 +23,10 @@
     scale: 1.2;
 }
 
+@media (max-width: 450px) {
+    .burbuja{
+        margin-left: 20px;
+    }
+}
+
+
