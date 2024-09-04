@@ -15,7 +15,9 @@ export default function Body3(){
                 <ul > <hr className='lineav'/></ul>
                 <ul className='texto'>LUCIA MIRANDA</ul>
             </div>
+            
             <div className="marco1">
+            
                 <div className='text'>
                     <div className='text1'>HOW CAN I HELP YOU?</div>
                     <div className='text2'>Hello! As a UX/UI Designer and Product Manager, I'm here to help enhance the user experience of your digital products and maximize their impact. From designing engaging and functional interfaces to optimizing processes and strategic planning, I'm committed to taking your projects to the next level. Ready to collaborate?</div>
@@ -31,12 +33,12 @@ export default function Body3(){
                     <div className="vars">User Experience Optimization<img src={phone} alt="" /></div>
                 </div>
             </div>
-            
             <div className='lineauix'>
                 <ul >UX/UI DESIGNER AND PRODUCT MANAGER</ul>
                 <ul> <hr className='lineah1' /></ul>
                 
             </div>
+            
             
        </div>
     )

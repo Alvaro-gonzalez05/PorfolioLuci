@@ -250,6 +250,9 @@ img {
 @media (max-width: 450px) {
    .info3{
     height:570px;
+    
+    display: flex;
+    flex-wrap: wrap;
    }
     .linea {
         transform: translateX(-20px);
