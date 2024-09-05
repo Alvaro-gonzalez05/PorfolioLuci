@@ -145,7 +145,7 @@
     transform: translateY(-1px);
   }
   /* Telefonos grandes */
-  @media (max-width: 450px) and (min-width:400px) {
+  @media (max-width: 450px) and (min-width:399px) {
     .CVU{
       width: auto;
       transform: translateY(520px);
@@ -153,7 +153,8 @@
     .CVU h1{
       
       font-size: 35px;
-      transform: translateX(-350px);
+      transform: translateX(-340px);
+      
     }
     .container1{
       
@@ -170,6 +171,8 @@
     margin-right: 700px;
     }
   }
+  
+  
   /* Telefonos Normales */
   @media (max-width: 399px) and (min-width:300px){
     .CVU{
@@ -179,8 +182,8 @@
     }
     .CVU h1{
       
-      font-size: 35px;
-      transform: translateX(-340px);
+      font-size: 30px;
+      transform: translateX(-330px);
     }
     .container1{
       
@@ -189,7 +192,7 @@
       padding: 0;
       display: flex;
       flex-wrap: wrap;
-     margin-left: 30px;
+     margin-left: 35px;
       
     }
     .pie{
