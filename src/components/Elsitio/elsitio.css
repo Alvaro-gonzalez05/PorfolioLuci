@@ -75,25 +75,57 @@ h5{
     flex-wrap: wrap;
   }
   .infoelsitio{
+    display:flex;
+    
     width: 250px;
     height: 700px;
   }
+  .imegeneselsitio{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
   .imegeneselsitio img{
-    height: 300px;
-    width: 200px;
-    transform: translateX(-50px);
+    height: 400px;
+    width: 250px;
+  }
+  .imegeneselsitio img:hover{
+    transform: translateY(1px);
   }
   
     
   }
-  h5{
-    font-style:none
-}
-
+  
 
   
     /* Telefonos Normales */
 
   @media (max-width: 399px) and (min-width:300px){
- 
+    .paginaElsitio{
+        display: flex;
+        
+        flex-wrap: wrap;
+      }
+      .infoelsitio{
+        display:flex;
+        
+        width: 200px;
+        height: 830px;
+      }
+      .imegeneselsitio{
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .imegeneselsitio img{
+        height: 400px;
+        width: 250px;
+      }
+      .imegeneselsitio img:hover{
+        transform: translateY(1px);
+      }
   }

@@ -9,12 +9,12 @@ import {Link} from 'react-router-dom';
 export default function Beaute(){
     return(
         <div className='contenedor1'>
-            
-            <div className="paginaElsitio">
             <div className="linea">
                 <ul > <hr className='lineav'/></ul>
                 <ul className='texto'>LUCIA MIRANDA</ul>
             </div>
+            <div className="paginaElsitio">
+            
                 <div className="infoelsitio" id='bea'>
                     <h1 className='text1' id='titulo'>Beauté</h1>
                     

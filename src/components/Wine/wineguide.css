@@ -87,3 +87,46 @@
     opacity: 1;
 
 }
+
+ 
+ @media (max-width: 450px)  {
+  .paginaElsitio{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #wine{
+    transform: translateX(-50px);
+  }
+  .infowineguide{
+    display:flex;
+    
+    width: 250px;
+    height: auto;
+    overflow: visible;
+  }
+  #panel img{
+    width: 300px;
+    height: 200px;
+  }
+  .imegenespagina{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    width: 300;
+  }
+  .imegenespagina img{
+    height: 400px;
+    width: 250px;
+  }
+  .imegeneswineguide img:hover{
+    transform: translateY(-10px);
+  }
+  
+    
+  }

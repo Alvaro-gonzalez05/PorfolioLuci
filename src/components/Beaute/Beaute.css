@@ -1,3 +1,36 @@
 #bea{
     height: 550px;
 }
+
+
+@media (max-width: 450px) {
+    .paginaElsitio{
+      display: flex;
+      
+      flex-wrap: wrap;
+    }
+    .infoelsitio{
+      display:flex;
+      
+      width: 250px;
+      height: 700px;
+    }
+    #bea{
+        width: 200px;
+        height: auto;
+    }
+    .imegenesman{
+      transform: translateX(-40px);
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .imegenesman img{
+        height: 400px;
+        width: 250px;
+    }
+    .imegenesman img:hover{
+      transform: translateY(1px);
+    }
+    
+      
+    }
