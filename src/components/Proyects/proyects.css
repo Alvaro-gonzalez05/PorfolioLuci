@@ -23,6 +23,7 @@
 }
 
 
+
   
   .container * {
     box-sizing: border-box;
@@ -123,6 +124,32 @@
   
   .button1:active {
     transform: translateY(-1px);
+  }
+
+  @media (min-width: 1200px) and (max-width:1370px){
+  
+    #pro{
+      height: 250px;
+
+    }
+    #lineap{
+      transform: translateX(-40px);
+      
+
+      margin-right: 0px;
+    }
+    .info31{
+      display: flex;
+      flex-wrap:wrap;
+     
+      height: auto;
+      
+    }
+    .container{
+      width: 280px;
+      margin-top: 15px;
+      padding: 0;
+    }
   }
 
   /* Telefonos grandes */

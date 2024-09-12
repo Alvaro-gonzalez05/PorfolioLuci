@@ -139,7 +139,7 @@ img {
 
 /* Media queries para hacer el diseño responsive */
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) and (max-width:1370px) {
     .linea {
         margin-right: 1000px;
         height: 450px;
@@ -151,11 +151,25 @@ img {
     }
 
     .titulo {
-        margin-right: 200px;
+        transform: translateX(680px);
+        
     }
-
+    .info3{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        
+    }
     .lineah {
+        
         width: 250px;
+    }
+    .lista{
+        margin-left: 100px;
+        
+    }
+    #b2{
+        height: 250px;
     }
 }
 

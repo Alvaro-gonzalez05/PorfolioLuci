@@ -70,8 +70,8 @@ export default function Proyects(){
                            
 
                     </div>
-                <div className="linea">
-                    <ul > <hr className='lineav'/></ul>
+                <div className="linea" id='lineap' >
+                    <ul > <hr className='lineav'id='pro'/></ul>
                     <ul className='texto'>LUCIA MIRANDA</ul>
                 </div>
                 </div>

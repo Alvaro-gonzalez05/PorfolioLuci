@@ -58,7 +58,7 @@ export default function Body2(){
                         </div>
                     </div>
                 <div className="linea">
-                    <ul > <hr className='lineav'/></ul>
+                    <ul > <hr className='lineav' id='b2'/></ul>
                     <ul className='texto'>LUCIA MIRANDA</ul>
                 </div>
                 </div>
