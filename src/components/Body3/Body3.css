@@ -183,7 +183,7 @@ button:active {
     }
     .text {
         margin-top: 1050px;
-        height: 400px;
+        height: auto;
         width: 400px;
     }
 
@@ -249,7 +249,7 @@ button:active {
         height: 500px;
        
 
-        transform: translateY(500px);
+        transform: translateY(550px);
         
     }
     .variables{
@@ -272,7 +272,7 @@ button:active {
         width: 50px;
     }
     .text{
-        height: 350px;
+        height: auto;
         width: 300px;
     }
     .text1 {
@@ -307,7 +307,7 @@ button:active {
         transform: translateY(-200px);
     }
     .pagina3{
-        transform: translateY(420px);
+        transform: translateY(370px);
         display: flex;
       
         
@@ -320,7 +320,7 @@ button:active {
         height: 500px;
        
 
-        transform: translateY(550px);
+        transform: translateY(600px);
         
     }
     .variables{
@@ -343,7 +343,7 @@ button:active {
         width: 50px;
     }
     .text{
-        height: 350px;
+        height: auto;
         width: 300px;
     }
     .text1 {
