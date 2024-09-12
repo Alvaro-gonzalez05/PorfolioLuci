@@ -15,6 +15,11 @@ export default function Body3(){
                 <ul > <hr className='lineav'/></ul>
                 <ul className='texto'>LUCIA MIRANDA</ul>
             </div>
+            <div className='lineauix'>
+                <ul >UX/UI DESIGNER AND PRODUCT MANAGER</ul>
+                <ul> <hr className='lineah1' /></ul>
+                
+            </div>
             
             <div className="marco1">
             
@@ -33,11 +38,7 @@ export default function Body3(){
                     <div className="vars">User Experience Optimization<img src={phone} alt="" /></div>
                 </div>
             </div>
-            <div className='lineauix'>
-                <ul >UX/UI DESIGNER AND PRODUCT MANAGER</ul>
-                <ul> <hr className='lineah1' /></ul>
-                
-            </div>
+            
             
             
        </div>

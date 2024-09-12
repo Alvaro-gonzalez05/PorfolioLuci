@@ -309,7 +309,7 @@ button:active {
     .pagina3{
         transform: translateY(400px);
         display: flex;
-      
+        
         
     }
     .marco1{
@@ -320,7 +320,7 @@ button:active {
         height: 500px;
        
 
-        transform: translateY(600px);
+        transform: translateY(550px);
         
     }
     .variables{
@@ -334,13 +334,14 @@ button:active {
         transform: translateY(-55px);
     }
     .vars{
-        height: 50px;
-        width: 50px;
+        height: 5px;
+        width: 5px;
         font-size: 10px;
     }
     .vars img{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
+       
     }
     .text{
         height: auto;
@@ -355,8 +356,9 @@ button:active {
     }
 
     .vars {
-        width: 120px;
-        height: 120px;
+        
+        width: 110px;
+        height: 100px;
     }
 
     button {
