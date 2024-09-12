@@ -65,8 +65,9 @@ export default function Proyects(){
                                     </p>
                                 </div>
                             </div>
+                            
                             </div>
-
+                           
 
                     </div>
                 <div className="linea">

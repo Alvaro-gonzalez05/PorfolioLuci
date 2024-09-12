@@ -6,7 +6,7 @@ export default function Body(){
     return(
         <div className="pagEntera">
             <div className="pagina1" id='1'>
-                <h1 className='titulo1'>PORFOLIO</h1>
+                <h1 className='titulo1'>PORTFOLIO</h1>
                 <div className="linea1">
                     <ul > <hr className='lineav'/></ul>
                     <ul className='texto'>LUCIA MIRANDA</ul>
