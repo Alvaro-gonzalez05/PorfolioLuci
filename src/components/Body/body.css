@@ -43,7 +43,7 @@ body {
     margin-left: 300px;
     border-radius: 15px;
     background-color: #2E2E2E;
-    height: 300px;
+    height: auto;
     width: 700px;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.726);
 }
@@ -80,7 +80,7 @@ body {
     .info {
         margin-left: 200px;
         height: auto;
-        width: 600px;
+        width: 750px;
     }
 
     .titulo1 {
@@ -182,10 +182,10 @@ body {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-bottom: 400px;
+    margin-bottom: 290px;
 
     margin-right: 50px;
-    transform:translateX(-280px) ;
+    transform:translateX(-28px) ;
     
     
    
@@ -206,7 +206,7 @@ body {
     }
 
     .info {
-        height: 300px;
+        height: auto;
         width: 250px;
         font-size: 10px;
         margin-right: 40px;
@@ -220,7 +220,7 @@ body {
     }
 
     .linea1 {
-        transform: translateX(-240px);
+        transform: translateX(5px);
         margin-bottom: 500px;
         height: 200px;
         width: 70px;

@@ -130,7 +130,7 @@ img {
 }
 
 .logos:hover {
-    scale: 1.05;
+    transform: translateY(-2px);
 }
 
 .logos1:hover {

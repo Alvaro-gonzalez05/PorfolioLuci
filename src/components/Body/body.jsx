@@ -12,7 +12,7 @@ export default function Body(){
                     <ul className='texto'>LUCIA MIRANDA</ul>
                 </div>
                 <div className="marco">
-                    <div className="info" > <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit ab quia ipsum ut maxime eveniet quas atque ipsam aspernatur libero voluptatum odio fugiat, earum maiores blanditiis deleniti illum. Nostrum, odit.</h1></div>
+                    <div className="info" > <h1>Hello, I'm Lucía Miranda, a 21-year-old Product Manager with a passion for UX/UI Design. I currently work as a freelancer and am always looking for new opportunities to grow professionally. I invite you to visit my portfolio to learn more about my work and experience.</h1></div>
                     <img src={logo} alt="" className="logo" />
                 </div>
                 

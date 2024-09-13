@@ -1,9 +1,14 @@
 import * as React from 'react';
 import './cvu.css'
 import {Link} from 'react-router-dom';
-
-
+import jsPDF from 'jspdf';
+import cvespañol from './multimedia/cvespañol.png'
 export default function CVU(){
+    pdfGenerate=()=>{
+        var doc=new jsPDF('landscape','px','a4','false');
+        doc.addImage(cvespañol,'PNG',65,20,500,400);
+        doc.save('cvespañol.pdf')
+    }
     return(
         <div className='CVU' id='4'>
             <h1 className="titulo2">CERTIFICATES & CV</h1>
@@ -51,8 +56,8 @@ export default function CVU(){
                             <div class="card">
                                 <div class="card__image1"></div>
                                 <div class="card__content">
-                                <Link to="/WineGuide"><button className='button1'> Download
-                                </button></Link>
+                                <button className='button1' onClick={this.pdfGenerate}> Download
+                                </button>
                                     <p class="card__describe">
                                     This is my CV in English version                                    </p>
                                 </div>

@@ -88,6 +88,26 @@
 
 }
 
+@media (min-width: 1200px) and (max-width:1370px) {
+  
+  .imegenespagina img{
+    height: 300px;
+    width: 170px;
+ 
+  }
+  .imegenespagina{
+    gap: 1px;
+  
+    width: 600px;
+  }
+  .imegeneswineguide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
  
  @media (max-width: 450px)  {
   .paginaElsitio{
