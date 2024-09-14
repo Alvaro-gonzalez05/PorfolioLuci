@@ -3,7 +3,6 @@ import * as React from 'react';
 import man1 from './img/1.png';
 import man2 from './img/2.png'
 
-import {Link} from 'react-router-dom';
 
 
 export default function Man(){
