@@ -7,7 +7,6 @@ import planificacion from '../../multimedia/planificacion.png'
 import pc from '../../multimedia/interface.png'
 import feedback from '../../multimedia/feedback.png'
 import phone from '../../multimedia/phone.png'
-import {Slide,Zoom,Fade } from 'react-awesome-reveal';
 export default function Body3(){
     return(
        <div className="pagina3" id='3'>

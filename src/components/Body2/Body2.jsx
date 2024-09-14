@@ -11,7 +11,6 @@ import corazon from '../../multimedia/corazon.png'
 import adaptabilidad from '../../multimedia/adaptabilidad.png'
 import creatividad from '../../multimedia/creatividad.png'
 import versatilidad from '../../multimedia/versatilidad.png'
-import {JackInTheBox,Fade,Zoom } from 'react-awesome-reveal';
 
 export default function Body2(){
     return(

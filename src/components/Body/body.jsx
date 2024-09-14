@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './body.css'
 import logo from '../../multimedia/Luci.png';
-import {Zoom, Fade} from 'react-awesome-reveal';
 export default function Body(){
     return(
     
