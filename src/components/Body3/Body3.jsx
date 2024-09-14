@@ -7,7 +7,7 @@ import planificacion from '../../multimedia/planificacion.png'
 import pc from '../../multimedia/interface.png'
 import feedback from '../../multimedia/feedback.png'
 import phone from '../../multimedia/phone.png'
-
+import {Slide,Zoom,Fade } from 'react-awesome-reveal';
 export default function Body3(){
     return(
        <div className="pagina3" id='3'>
@@ -28,7 +28,7 @@ export default function Body3(){
                     <div className='text2'>Hello! As a UX/UI Designer and Product Manager, I'm here to help enhance the user experience of your digital products and maximize their impact. From designing engaging and functional interfaces to optimizing processes and strategic planning, I'm committed to taking your projects to the next level. Ready to collaborate?</div>
                     <Link to="/Jobs and Proyects"><button> My Jobs and proyects</button></Link>
                 </div>
-                <div className='variables'>
+               <div className='variables'>
 
                     <div className="vars">Tracking and analyzing metrics<img src={grafico} alt="" /></div>
                     <div className="vars">Community management<img src={usuarios} alt="" /></div>

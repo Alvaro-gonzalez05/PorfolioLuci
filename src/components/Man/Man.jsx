@@ -19,7 +19,7 @@ export default function Man(){
                     <h1 className='text1' id='titulo'>Man Denim Culture</h1>
                     
                     <div className="text21">As a UX/UI designer and product manager, I've crafted a unique shopping experience at Man Denim Culture, utilizing a sleek palette of black and white. Every detail, from the user interface to product selection, is meticulously designed to provide comfort, style, and authenticity to our customers. Explore our online store and discover how fashion converges in every garment we offer.</div>                
-                    <Link to="https://drive.google.com/file/d/141NP2cAKh8srhHTkLEsJCHfIgZEbEdmm/view"><button id='elsitio'> DIGITAL CARD LINK</button></Link>
+                    
                 </div>
 
                 <div className="imegenesman">

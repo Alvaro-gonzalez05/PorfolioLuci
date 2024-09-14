@@ -1,5 +1,7 @@
 #bea{
     height: 550px;
+    display: flex;
+    justify-content: center;
 }
 
 

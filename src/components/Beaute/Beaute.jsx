@@ -19,7 +19,7 @@ export default function Beaute(){
                     <h1 className='text1' id='titulo'>Beauté</h1>
                     
                     <div className="text21" >As a UX/UI designer, I'm thrilled to present Beauté, an aesthetic clinic dedicated to enhancing natural beauty with a touch of elegance and sophistication. Our website reflects this ethos, using soft pink tones to convey freshness and femininity. The beautiful logo we've crafted perfectly encapsulates this vision of timeless beauty. At Beauté, clients can expect high-quality services and exceptional results, all within a warm and personalized environment. I'm excited to have contributed to this project and to share it with you. Discover how Beauté can help you enhance your unique beauty.</div>                
-                    <Link to="https://drive.google.com/file/d/141NP2cAKh8srhHTkLEsJCHfIgZEbEdmm/view"><button id='elsitio'> DIGITAL CARD LINK</button></Link>
+                    
                 </div>
 
                 <div className="imegenesman">

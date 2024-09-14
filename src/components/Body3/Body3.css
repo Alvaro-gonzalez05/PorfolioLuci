@@ -259,9 +259,10 @@ button:active {
         transform: translateY(-250px);
     }
     .pagina3{
-        transform: translateY(200px);
+        transform: translateY(250px);
         display: flex;
-      
+     
+      height: 800px;
         
     }
     .marco1{

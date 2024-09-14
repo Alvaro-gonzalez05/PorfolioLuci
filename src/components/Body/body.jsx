@@ -1,9 +1,10 @@
 import * as React from 'react';
 import './body.css'
 import logo from '../../multimedia/Luci.png';
-
+import {Zoom, Fade} from 'react-awesome-reveal';
 export default function Body(){
     return(
+    
         <div className="pagEntera">
             <div className="pagina1" id='1'>
                 <h1 className='titulo1'>PORTFOLIO</h1>
