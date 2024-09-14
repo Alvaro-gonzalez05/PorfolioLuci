@@ -21,6 +21,10 @@
 
 
 }
+.redes a{
+    
+    color: black;
+}
 
 .inferior {
     display: flex;

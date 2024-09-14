@@ -24,7 +24,7 @@ export default function Navbar(){
                     
                 </div>
                 <div className="redes">
-                    <li><FiInstagram className='icono'/></li>
+                    <a href="https://www.instagram.com/luciamirandd?igsh=dDl1ZWMzMDd3N2F3"><li><FiInstagram className='icono'/></li></a>
                     <li><TiSocialLinkedin className='icono' /></li>
                 </div>
             </div>

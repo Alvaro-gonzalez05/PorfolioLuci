@@ -1,14 +1,9 @@
 import * as React from 'react';
 import './cvu.css'
 import {Link} from 'react-router-dom';
-import jsPDF from 'jspdf';
-import cvespañol from './multimedia/cvespañol.png'
+
 export default function CVU(){
-    pdfGenerate=()=>{
-        var doc=new jsPDF('landscape','px','a4','false');
-        doc.addImage(cvespañol,'PNG',65,20,500,400);
-        doc.save('cvespañol.pdf')
-    }
+   
     return(
         <div className='CVU' id='4'>
             <h1 className="titulo2">CERTIFICATES & CV</h1>
@@ -17,25 +12,25 @@ export default function CVU(){
                 <div class="card">
                     <div class="card__image2"></div>
                     <div class="card__content">
-                    <Link to="/Elsitio"><button className='button1'> See More
-                    </button></Link>
-                        <p class="card__describe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente harum aperiam voluptates, aliquid ut tenetur dicta quia quas illo vero perspiciatis nisi repellendus nemo, soluta culpa iste voluptatibus a obcaecati?</p>
+                    <a href={require('./multimedia/certificado1.jpg')}><button className='button1'> See More
+                    </button></a>
+                        <p class="card__describe">I earned a certificate in web development with a focus on HTML, where I learned the fundamentals of building structured web pages. I developed skills to create interactive websites using tags, links, tables, forms, and basic styling. Additionally, I worked on practical projects that enhanced my understanding of web semantics and accessibility.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card__image2"></div>
                     <div class="card__content">
-                    <Link to="/Elsitio"><button className='button1'> See More
-                    </button></Link>
-                        <p class="card__describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, perferendis odio? Temporibus quaerat officiis recusandae est asperiores officia harum sed velit similique dolore, doloremque laboriosam voluptate autem. Explicabo, deserunt molestiae!</p>
+                    <a href={require('./multimedia/certificado2.jpg')}><button className='button1'> See More
+                    </button></a>
+                        <p class="card__describe">I earned a certificate as a Product Manager, where I learned to manage the entire product lifecycle, from conception to launch. I developed skills in market research, product definition, roadmap planning, and coordinating with cross-functional teams. I also worked on projects that allowed me to apply agile strategies and make data-driven decisions to improve user experience and achieve business goals.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card__image2"></div>
                     <div class="card__content">
-                    <Link to="/Elsitio"><button className='button1'> See More
+                    <Link to="/"><button className='button1'> COMING SOON...
                     </button></Link>
-                        <p class="card__describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, perferendis odio? Temporibus quaerat officiis recusandae est asperiores officia harum sed velit similique dolore, doloremque laboriosam voluptate autem. Explicabo, deserunt molestiae!</p>
+                        <p class="card__describe">I am currently enrolled in an advanced intensive UX/UI program, focused on designing intuitive and efficient user experiences, as well as enhancing the usability and aesthetics of digital interfaces.</p>
                     </div>
                 </div>
            </div>
@@ -45,8 +40,9 @@ export default function CVU(){
                             <div class="card">
                                 <div class="card__image1"></div>
                                 <div class="card__content">
-                                <Link to="/Elsitio"><button className='button1'> Download
-                                </button></Link>
+                                <a href={require('./multimedia/cvespañol.pdf')} id='cvSpanish'
+                                download="LuciaMirandacvSpanish"><button className='button1' id='download'> Download
+                                </button></a>
                                     <p class="card__describe">
                                     This is my CV in Spanish version                                    </p>
                                 </div>
@@ -56,8 +52,8 @@ export default function CVU(){
                             <div class="card">
                                 <div class="card__image1"></div>
                                 <div class="card__content">
-                                <button className='button1' onClick={this.pdfGenerate}> Download
-                                </button>
+                                <a href={require('./multimedia/cvingles.pdf')} id='cvSpanish'
+                                download="LuciaMirandacvEnglish"> <button className='button1' id='download' >Download</button></a>
                                     <p class="card__describe">
                                     This is my CV in English version                                    </p>
                                 </div>
