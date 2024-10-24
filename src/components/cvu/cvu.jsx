@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './cvu.css'
-import {Link} from 'react-router-dom';
+
 
 export default function CVU(){
    
@@ -28,11 +28,14 @@ export default function CVU(){
                 <div class="card">
                     <div class="card__image2"></div>
                     <div class="card__content">
-                    <Link to="/"><button className='button1'> COMING SOON...
-                    </button></Link>
-                        <p class="card__describe">I am currently enrolled in an advanced intensive UX/UI program, focused on designing intuitive and efficient user experiences, as well as enhancing the usability and aesthetics of digital interfaces.</p>
+                    <a href={require('./multimedia/certificado3.jpg')}><button className='button1'> See More
+                    </button></a>
+                        <p class="card__describe">I obtained a certificate as a ux designer, where I learned to design intuitive and attractive interfaces to achieve an optimal customer experience by implementing usability, accessibility and responsive designs.</p>
                     </div>
                 </div>
+
+
+              
            </div>
             
             <div class="container1" id='certificados1'>
